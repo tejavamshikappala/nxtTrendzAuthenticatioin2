@@ -1,0 +1,17 @@
+.forCart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.forImageCart {
+  width: 130px;
+}
+
+@media screen and (min-width: 768px) {
+  .forImageCart {
+    width: 170px;
+  }
+}
